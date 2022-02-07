@@ -1,0 +1,40 @@
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.Card:nth-child(2n) {
+    background: rgb(245, 244, 244);
+}
+    
+
+.phoneNumber:before {
+    content: "*";
+    color: red;
+}
+.phoneNumber {
+    text-decoration: underline;
+    font-weight: 600;
+    
+}
+
+.userName {
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+}
+
+.sidebar {
+    background: rgb(218, 211, 211);
+}
+
+.dflex {
+    display:flex;
+}
+
+.main {
+    padding: 20px;
+}

@@ -1,0 +1,82 @@
+
+.header{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #383333;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    align-items: flex-start;
+}
+
+.baseInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    width: 160px;
+}
+
+.baseInfo span small{
+    color: #AEAEAE;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.dot:hover{
+   cursor: pointer;
+   background: #AEAEAE;
+   border-radius: 5px;
+   padding: 0 5px; 
+}
+
+.baseInfo span small:after{
+   
+    content: " bài viết"
+}
+
+.baseInfo span {
+    font-weight: 600;
+    color: #1D1C1C;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    height: 20px;
+}
+
+.dot {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #1D1C1C;
+    padding: 0 5px;
+}
+
+.container {
+    background: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.readMore {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+    padding: 10px 10px 0;
+
+    /* Brand-Color/02 */
+
+    color: #D4903B;
+}
