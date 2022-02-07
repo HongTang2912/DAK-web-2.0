@@ -1,7 +1,7 @@
 import React from 'react';
-import Intro from './components/introductions';
-import Ranking from './components/ranking';
-import Main from './components/main';
+import Intro from '../components/introductions';
+import Ranking from '../components/ranking';
+import Main from '../components/main';
 import Head from 'next/head';
 
 
