@@ -1,0 +1,4 @@
+.active {
+    color: #f9ca24;
+    border-bottom: 0.1em solid var(--active-border-bottom);
+}

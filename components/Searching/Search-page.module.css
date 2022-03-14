@@ -1,0 +1,41 @@
+.result {
+    width: 400px;
+    height: 1000px;
+    position: relative;
+    background: #DDD;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+.result h2 {
+    color: var(--text-color);
+}
+
+.pills-content {
+    margin-right: 27px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: var(--text-color);
+}
+
+.pills-content li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+@media only screen and (min-width: 960px) {
+    .result{
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .result{
+        width: 780px;
+    }
+}

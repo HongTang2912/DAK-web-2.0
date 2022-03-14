@@ -1,0 +1,20 @@
+.lists {
+    display: flex;
+    padding: 10px 70px 10px 70px;
+    justify-content: space-between;
+}
+.lists span {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+.list-items {
+    display: flex;
+}
+.list-pictures {
+    margin-right: 10px;
+}
+.list-pictures span {
+    border-radius: 10px;
+}
